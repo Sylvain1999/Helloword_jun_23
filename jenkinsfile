@@ -5,6 +5,7 @@ pipeline {
         steps {
          echo "Hello World"
         }
+      }
 	stage('build'){
 	  steps {
 	    echo "build"
@@ -12,9 +13,3 @@ pipeline {
 	}
       }
     }
-
-=======
-      }
-    }
->>>>>>> b4dce0e55ca7676c0667c6a90e56a800eed27679
-}
